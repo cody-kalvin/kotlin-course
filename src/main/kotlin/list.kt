@@ -1,6 +1,6 @@
 fun main() {
-    val animals = arrayListOf("lion", "zebra", "chimp", "elephant")
-    val panda = "panda"
-    animals.add(panda)
-    println(animals)
+    val items = arrayListOf("laptop", "mouse", "pen", "paper", "mug", "phone")
+    val removedItems = listOf("pen", "paper", "mug", "phone")
+    items.removeAll(removedItems)
+    println(items)
 }
